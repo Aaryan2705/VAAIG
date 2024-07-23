@@ -1,0 +1,36 @@
+name: vaaig
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^6.6.2
+#  http: ^1.2.0
+  http: ^1.0.0
+  flutter_tts: ^4.0.2
+  animate_do: ^3.3.4
+  logger: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: Cera Pro
+      fonts:
+        - asset: assets/fonts/Cera-Pro-Bold.otf
+        - asset: assets/fonts/Cera-Pro-Medium.otf
